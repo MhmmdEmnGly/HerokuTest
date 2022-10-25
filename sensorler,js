@@ -1,0 +1,42 @@
+// buraya sensor tablosu olusturursun 
+//ID - name - ve data degiskenleri yaparsın
+
+
+//** data js klasörüne bakarak yapabilirsin -- > */
+
+
+module.exports = [
+    {
+      id: 1,
+      isim: "Sicaklik",
+      data: "25",
+    },
+    {
+      id: 2,
+      isim: "Nem",
+      data: "%67",
+    },
+    {
+      id: 3,
+      isim: "Fan Durum",
+      data: "OFF",
+    },
+    {
+        id: 4,
+        isim: "Isıtıcı Durum",
+        data: "OFF",
+      },
+      {
+        id: 5,
+        isim: "Işık Durum",
+        data: "ON",
+      },
+      {
+        id: 6,
+        isim: "Kapı Durum",
+        data: "Kapali",
+      },
+
+  ];
+
+  
